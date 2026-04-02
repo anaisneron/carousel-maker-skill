@@ -1,0 +1,40 @@
+{
+  "_comment": "Example brand-config.json — Copy this file, rename to brand-config.json, and fill in your values.",
+
+  "company": {
+    "name": "Mon Entreprise",
+    "tagline": "Slogan ou description courte"
+  },
+
+  "colors": {
+    "primary":        "#1C2B4A",
+    "accent":         "#C8102E",
+    "background":     "#F5F0EC",
+    "gradientStart":  "#E8E4EF",
+    "gradientEnd":    "#F0E0E0",
+    "textSecondary":  "#6B7280",
+    "highlightBg":    "#FDE8E8"
+  },
+
+  "fonts": {
+    "heading":        "'Playfair Display', Georgia, serif",
+    "body":           "'Open Sans', Calibri, sans-serif",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:wght@300;400;600&display=swap"
+  },
+
+  "logo": {
+    "svgMarkup": "<svg viewBox='0 0 60 60' width='36' height='36'><circle cx='30' cy='30' r='25' fill='none' stroke='currentColor' stroke-width='2.5'/></svg>",
+    "showInFooter": true
+  },
+
+  "apify": {
+    "defaultToken": ""
+  },
+
+  "export": {
+    "defaultRatio": "4:5",
+    "filePrefix": "carrousel"
+  },
+
+  "language": "fr"
+}
